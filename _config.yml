@@ -1,10 +1,12 @@
 ### your site title here
 
-title: Hagura - Light!
-baseurl: /hagura # name of the repository
-email: your@email.com
+title: Jonas - Persönlicher Blog!
+baseurl: http://jonas.mvbuddies.de/blog # name of the repository
+#email: your@email.com
 
+timezone: Europe/Berlin
 
+permalink: /:title/
 
 highlighter: rouge
 markdown: kramdown
@@ -12,12 +14,16 @@ markdown: kramdown
 
 paginate: 4
 
+auto: true
+
+
+
 
 # Tracker
-analytics: UA-83979019-4
+analytics:
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: mvbuddies
 
 
 #optimization
@@ -39,7 +45,15 @@ sass:
 exclude:
 - README.md
 
+timezone: Europe/Berlin
+
+
 
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-extract-element
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-archives

@@ -1,16 +1,17 @@
 ---
 layout: post
 title: Documentation
+published: false
 ---
 
 # Features:
-Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well. 
+Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well.
 
 Suitable fonts are selected for better readability. Since the theme is created for smartphone reading, the theme is very light so that it loads instantly on a slow data connection.
 
 The theme comes with pre-installed **analytics**, **disqus** and **html compressor**. But make sure you change key parameters in the **_config.yml** file.
 
-* Do not remove this line (it will not be displayed) 
+* Do not remove this line (it will not be displayed)
 {:toc}
 
 ## Switch Night-Mode
@@ -41,10 +42,9 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 
 
 ## License
-MIT License 
+MIT License
 
 
 ### Version 1.0
 * Description along with the title in the index page.
 * Removed ugly theme switch icon and added text link.
-
